@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.header__logo {
+  max-width: 254px;
+  height: 70px;
+  opacity: 1;
+  margin: 34px auto 90px;
+}
+
+@media screen and (max-width: 1024px) {
+  /* Ajustes para tablet */
+
+  .header {
+    width: 254;
+    height: 66;
+    top: 30px;
+    left: 257px;
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  /* Ajustes para mobile */
+
+  .header {
+    width: 188;
+    height: 52;
+    top: 20px;
+    left: 66px;
+    opacity: 1;
+  }
+}

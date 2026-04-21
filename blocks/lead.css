@@ -1,0 +1,41 @@
+.lead {
+  max-width: 984px;
+  margin: 0 auto;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+.lead__title {
+  font-weight: 900;
+  font-style: Black;
+  font-size: 96px;
+  line-height: 100px;
+  letter-spacing: 0%;
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 32px;
+}
+
+.lead__subtitle {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 64px;
+}
+
+.lead__image {
+  width: 100%;
+  margin: 0 auto 92px;
+}
+
+@media screen and (max-width: 1024px) {
+  /* Ajustes para tablet */
+
+  
+}
+
+@media screen and (max-width: 544px) {
+  /* Ajustes para mobile */
+}
